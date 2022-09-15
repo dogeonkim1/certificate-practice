@@ -78,7 +78,7 @@
             <article class="notice">
                 <ul class="clearfix">
                     <li class="active"><a href="">롯데월드 소식</a>
-                        <ul style="display : none">
+                        <ul>
                             <li><a href="#">1. 첫번째 목록입니다. 첫번째 목록입니다. 첫번째 목록입니다.</a><span>2019.05.03</span></li>
                             <li><a href="#">1. 첫번째 목록입니다. 첫번째 목록입니다. 첫번째 목록입니다.</a><span>2019.05.03</span></li>
                             <li><a href="#">1. 첫번째 목록입니다. 첫번째 목록입니다. 첫번째 목록입니다.</a><span>2019.05.03</span></li>
@@ -86,7 +86,7 @@
                         </ul>
                     </li>
                     <li><a href="#">뉴스·공지</a>
-                        <ul style="display : none">
+                        <ul>
                             <li><a href="#">2. 두번째 목록입니다. 두번째 목록입니다. 두번째 목록입니다</a><span>2019.05.03</span></li>
                             <li><a href="#">2. 두번째 목록입니다. 두번째 목록입니다. 두번째 목록입니다</a><span>2019.05.03</span></li>
                             <li><a href="#">2. 두번째 목록입니다. 두번째 목록입니다. 두번째 목록입니다</a><span>2019.05.03</span></li>
@@ -97,7 +97,7 @@
                 <a href="#" class="more">더보기 +</a>
             </article>
             <figure class="ad">
-                <img src="img/ad.jpg" alt="온종일 혜택">
+                <a href="#"><img src="img/ad.jpg" alt="온종일 혜택"></a>
             </figure>
         </section>
         <!-- contents1 -->
@@ -148,14 +148,15 @@
         <!-- footer -->
     </div>
 
+    <!-- 팝업 -->
+    <div class="layer_bg">
+        <div class="layer">
+            <h2>타이틀</h2>
+            <a href="#" class="close">닫기</a>
+        </div>
+    </div>
+
     <script src="script/jquery.min_1.12.4.js"></script>
-    <script>
-        $(".nav > ul > li").mouseover(function(){
-            $(this).find(".submenu").stop().slideDown(200);
-        });
-        $(".nav > ul > li").mouseout(function(){
-            $(this).find(".submenu").stop().slideUp(200);
-        });
-    </script>
+    <script src="script/custom.js"></script>
 </body>
 </html>
