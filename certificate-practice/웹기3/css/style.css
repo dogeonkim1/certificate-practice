@@ -30,3 +30,15 @@ border-bottom: 1px solid #ccc;}
 .slideList .slideImg {position: absolute; left: 0;top: 0;}
 .slideList .slideImg h2 {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.5); padding: 10px 30px; border-radius: 25px;}
+
+/*tab*/
+.tab {padding: 40px 0; height: 200px; position: relative; width: 100%;}
+.tab img {width: 100px;}
+.tab ul {text-align: center;}
+.tab ul li {display: inline; padding: 5px;}
+.tab ul li a {font-size: 24px; color: #999;}
+.tab ul li ul {position: absolute; left: 0; top: 100px; width: 100%; overflow: hidden;}
+.tab ul li ul li {width: 20%; float: left;box-sizing: border-box;}
+.tab ul li ul li a {font-size: 14px;}
+.tab ul li ul li a span {display: block;}
+.tab ul li.active a {color: #000;}
