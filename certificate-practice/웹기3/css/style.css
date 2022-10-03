@@ -22,3 +22,11 @@ li{list-style: none;}
 #aside .nav li ul.submenu li a {display: block; font-size: 20px; color: #333; padding: 10px;
 border-bottom: 1px solid #ccc;}
 #aside .nav li ul.submenu li a:hover {text-decoration: none;}
+
+/*banner*/
+.banner {height: 382px;}
+.banner img {width: 100%; display: block;}
+.slideList {width: 700px; position: relative;}
+.slideList .slideImg {position: absolute; left: 0;top: 0;}
+.slideList .slideImg h2 {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); padding: 10px 30px; border-radius: 25px;}
