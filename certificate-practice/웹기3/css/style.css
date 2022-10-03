@@ -6,3 +6,19 @@ li{list-style: none;}
 
 /*layout*/
 #wrap {width: 1000px; margin: 0 auto; padding-top: 50px;}
+#aside {float: left; width: 270px;}
+#contents {float: right; width: 700px;}
+#footer {float: left; width: 100%; background: #edf2f8;}
+
+/*aside*/
+#aside h1 {margin-bottom: 30px;}
+#aside h1 img {width: 150px;}
+#aside .nav li {position: relative; z-index: 1000; padding-bottom: 5px; background: #f1f1f1; padding: 10px;}
+#aside .nav li a {font-size: 23px;}
+#aside .nav li a:hover {text-decoration: underline;}
+#aside .nav li.active a {color: blueviolet;}
+#aside .nav li ul.submenu {display: none; width: 150px; position: absolute; right: -140px; top: 0;}
+#aside .nav li ul.submenu li { }
+#aside .nav li ul.submenu li a {display: block; font-size: 20px; color: #333; padding: 10px;
+border-bottom: 1px solid #ccc;}
+#aside .nav li ul.submenu li a:hover {text-decoration: none;}
