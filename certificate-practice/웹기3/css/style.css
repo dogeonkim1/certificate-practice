@@ -42,3 +42,15 @@ border-bottom: 1px solid #ccc;}
 .tab ul li ul li a {font-size: 14px;}
 .tab ul li ul li a span {display: block;}
 .tab ul li.active a {color: #000;}
+
+/* layer */
+.layer {background: #f7f7f7; padding: 15px;}
+.layer > div {position: relative; float: left; width: 32%; 
+    padding: 6% 3%; text-align: center; margin-right: 2%; background: #fff; 
+    border: 2px solid #ccc; box-sizing: border-box;
+}
+.layer > div:last-child {margin-right: 0;}
+.layer > div img {width: 100px; padding: 20px 0;}
+.layer > div ul li {text-align: left; padding-bottom: 5px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.layer > div .more {position: absolute; right: 20px; top: 20px; border:1px solid #ccc; 
+border-radius: 50%; width: 15px; height: 15px;}
